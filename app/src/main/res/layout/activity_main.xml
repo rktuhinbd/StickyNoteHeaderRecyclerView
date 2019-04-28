@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.jaychang.srv.SimpleRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srv_dividerColor="@color/colorAccent"
+        app:srv_dividerOrientation="both"
+        app:srv_dividerPaddingLeft="5dp"
+        app:srv_dividerPaddingRight="5dp"
+        app:srv_layoutMode="linearVertical"
+        app:srv_showDivider="true"
+        app:srv_showLastDivider="true" />
+
+</RelativeLayout>
